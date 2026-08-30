@@ -1,17 +1,76 @@
-# quiz_app
+# 🧠 Flutter Quiz App
 
-A new Flutter project.
+A simple and interactive **Quiz Application built using Flutter and Dart**.
 
-## Getting Started
+This application allows users to answer multiple-choice questions, navigate through the quiz, and view their final score after completing all the questions.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Project Overview
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+The **Flutter Quiz App** is a learning project developed using Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The main goal of this project is to build an interactive quiz application while learning and practicing Flutter concepts such as widgets, user interaction, state management, screen navigation, and dynamic content.
+
+The application consists of:
+
+- A Home Screen
+- Multiple Quiz Question Screens
+- Answer Selection
+- Final Result Screen
+- Restart Quiz Functionality
+
+---
+
+## ✨ Features
+
+- 🏠 Interactive Home Screen
+- ❓ Multiple-choice questions
+- 🖱️ Interactive answer selection
+- ➡️ Navigation between questions
+- 📊 Final score/result display
+- 🔄 Restart quiz functionality
+- 🎨 Custom UI design
+- 📱 Responsive Flutter interface
+- 🔤 Custom fonts using Google Fonts
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Flutter | Application development |
+| Dart | Programming language |
+| Material Design | UI components |
+| Google Fonts | Custom typography |
+
+---
+
+## 📂 Project Structure
+
+```text
+flutter-quiz-app/
+│
+├── android/
+├── ios/
+├── lib/
+│   ├── main.dart
+│   ├── quiz.dart
+│   ├── start_screen.dart
+│   ├── questions.dart
+│   └── ...
+│
+├── screenshots/
+│   ├── homepage.png
+│   ├── question1.png
+│   ├── question2.png
+│   ├── question3.png
+│   ├── question4.png
+│   ├── question5.png
+│   ├── question6.png
+│   └── finalpage.png
+│
+├── pubspec.yaml
+├── README.md
+└── .gitignore
